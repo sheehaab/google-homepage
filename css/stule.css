@@ -1,0 +1,125 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding:10px 30px;  
+}
+
+a:not(.link-button){
+    color:#000;
+    text-decoration: none;
+    font-size:.8em;
+}
+
+a:not(.link-button):hover{
+    text-decoration: underline;
+}
+
+nav .right span{
+    font-size:.9em;
+}
+
+nav .left a{
+    margin:0 10px;
+}
+
+nav .right a:not(.link-button){
+    margin:0 10px;
+}
+
+nav .right button{
+    margin:0 10px;
+    border:none;
+    height:30px;
+    width:80px;
+    cursor:pointer;
+    font-size:.9em;
+    color:#FFF;
+    background-color: #4386F8;
+    font-weight:bolder;
+    border-radius: 2px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:80px;
+}
+
+main img{
+    margin-bottom:20px;
+}
+
+main label input{
+    width:600px;
+    border-radius:20px;
+    padding:11px 11px 11px 35px;
+    border:1px solid #0000001a;
+    background-image: url('../icons8-search-24.png');
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: 15px;
+    margin-bottom:20px;
+}
+
+main label input:hover,main label input:focus{
+    box-shadow:rgba(32, 33, 36, 0.28) 0px 1px 6px 0px;
+}
+
+main .search-btns button{
+    border:none;
+    padding:5px 10px;
+    font-size:.9em;
+    margin-left:10px;
+    color:#818181;
+    border:1px solid transparent;
+    border-radius:5px;
+}
+
+main .search-btns button:hover{
+    border:1px solid rgb(198, 198, 198);
+    background-color:rgb(248, 248, 248);
+    background-image: -webkit-linear-gradient(rgb(248, 248, 248), rgb(241, 241, 241));
+    cursor:pointer;
+    color:#000;
+}
+
+footer{
+    background-color:#EEE;
+    position: absolute;
+    width:100%;
+    bottom:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:40px;
+    border-top:1px solid #0000001a;
+}
+
+footer .left,footer .right{
+    padding:15px;
+    width:50%;
+}
+
+footer .right {
+    display:flex;
+    justify-content:flex-end;
+}
+
+footer .right a, footer .left a{
+    margin:0 15px;
+    color:#818181;
+}
+
+
+
