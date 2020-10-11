@@ -1,2 +1,2 @@
-This is a Google Homepage, It's simple contains a navbar that hold the about,store,gmail,images,Humberger and sign in button.
+This is a Google Homepage, It's simple contains a navbar that hold the About,Store,Gmail,Images,Humberger and Sign in button.
 in the middle the main of the page it's the logo of google and the search bar that you could search from it and then click on one of the two button, one is the regualr search and the another is get you to a random article, and last there i the footer and it contains:- Advertising, Business,How Search Works, Privacy, Terms and Settings.
